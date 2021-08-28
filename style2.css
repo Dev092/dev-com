@@ -1,0 +1,50 @@
+*{
+    margin: 0%;
+    text-decoration: none;
+}
+
+
+.ftitle{ background-color:#002364; position: fixed; width: 100%; box-shadow: 5px 0px 15px 3px rgba(0, 7, 99, 0.637);}
+.ftitle a{ color: rgb(255, 255, 255);padding: 15px;}
+.f1{float: right;padding: 15px;}
+
+
+
+.dropb {
+  background-color:#002364;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+}
+.dropc {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  width: 20%;
+  margin-left: 7%;
+  margin-top: 3px;
+  border-radius:20px;
+  box-shadow: 0px 7px 16px 0px rgba(0,0,0,0.4);
+  overflow:hidden;
+}
+.dropc a {
+  color: rgb(3, 3, 3);
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align:center;
+}
+
+
+
+.ftitle a:hover {color: skyblue; background-color: #ffffff;padding: 15px; color: blue; font-weight: bold; border-radius: 3px;}
+.dropc a:hover {background-color: rgb(151, 158, 182);}
+.dropdown:hover .dropc {display: block;}
+.dropdown:hover .dropb {background-color: #ffffff; color: blue; font-weight: bold;}
+
+.logo-image {
+  width:150px;
+  height:150px;
+}
+

@@ -47,4 +47,12 @@
   width:150px;
   height:150px;
 }
-
+.footer {
+	background-color: #454545;
+	color: #ffffff;
+	padding: 15px;
+	position: fixed;
+	width: 100%;
+	bottom: 0;
+	text-align: center;
+}
